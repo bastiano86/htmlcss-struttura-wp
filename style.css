@@ -1,0 +1,36 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  margin: 20px 80px;
+}
+/* Header */
+header {
+  background-color: red;
+  height: 150px;
+  margin-bottom: 10px;
+}
+/* Upper Space */
+.upper-space {
+  background-color: yellow;
+  height: 400px;
+  margin-bottom: 10px;
+}
+/* Lower Space */
+.lower-space {
+ background-color: lightyellow;
+ height: 200px;
+}
+/* Clearfix */
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+/* Float Left */
+.float-left {
+  float:left;
+}
